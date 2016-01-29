@@ -1,0 +1,14 @@
+h1 {
+	width: 260px;
+	height: 218px;
+	margin: 20px auto;
+	display: block;
+	background-image: url('../images/github-octocat.png');
+	background-size: 260px 218px;
+
+	@include breakpoint($tablet_600) {
+		width: 400px;
+		height: 335px;
+		background-size: 400px 335px;
+	}
+}

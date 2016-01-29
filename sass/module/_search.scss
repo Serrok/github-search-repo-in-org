@@ -1,0 +1,46 @@
+.search-area {
+	width: 100%;
+	margin: 0px auto 20px;
+	text-align: center;
+
+	@include breakpoint($desktop_1000) {
+		width: 600px;
+	}
+}
+.result-area-list {
+	margin: auto;
+	padding: 0px 20px 10px;
+	@include breakpoint($desktop_1000) {
+		width: 800px;
+	}
+
+	li {
+		cursor: pointer;
+	}
+}
+.result-area-detail {
+	margin: auto;
+	@include breakpoint($desktop_1000) {
+		width: 800px;
+	}
+}
+.navi-buttons {
+	@include breakpoint($desktop_1000) {
+		display: flex;
+		justify-content: center;
+	}
+	div {
+		display: block;
+		margin: 10px 20px;
+		@include breakpoint($tablet_600) {
+			width: 540px;
+			margin: 10px auto;
+		}
+		@include breakpoint($desktop_1000) {
+			margin-right: 10px;
+			&:last-child {
+				margin-right: 0px;
+			}
+		}
+	}
+}
