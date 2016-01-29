@@ -127,7 +127,7 @@ var OSSearchConsole = React.createClass({
 							null,
 							'Search an organization'
 						),
-						React.createElement('input', { name: 'organization', type: 'text', value: 'Apple', autoFocus: 'true' })
+						React.createElement('input', { name: 'organization', type: 'text', autoFocus: 'true' })
 					),
 					React.createElement('input', { type: 'submit', className: 'sui-button-submit', value: 'List' })
 				)

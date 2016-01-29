@@ -108,7 +108,7 @@ var OSSearchConsole = React.createClass({
 					<form action="#"  onSubmit={this.searchRepoInOrg}>
 					<div className="sui-input-text">
 						<label>Search an organization</label>
-						<input name="organization" type="text" value="Apple" autoFocus="true" />
+						<input name="organization" type="text" autoFocus="true" />
 					</div>
 					<input type="submit" className="sui-button-submit" value="List" />
 					</form>
